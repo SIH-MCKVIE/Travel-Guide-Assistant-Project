@@ -15,35 +15,35 @@ It blends AI reasoning, search, and modern UI to deliver personalized travel pla
 
 ## ✨ Key Features
 
-💰 Budget-aware destination recommendations
+- 💰 Budget-aware destination recommendations
 
-🎯 Interest-based filtering (beach, adventure, culture, nature)
+- 🎯 Interest-based filtering (beach, adventure, culture, nature)
 
-📚 RAG-powered destination knowledge search
+- 📚 RAG-powered destination knowledge search
 
-🗓️ Auto-generated multi-day itineraries
+- 🗓️ Auto-generated multi-day itineraries
 
-🗺️ Google Maps location preview
+- 🗺️ Google Maps location preview
 
-🖼️ Dynamic destination images
+- 🖼️ Dynamic destination images
 
-⚡ Fast & lightweight Flask backend
+- ⚡ Fast & lightweight Flask backend
 
-🎨 Modern responsive UI
+- 🎨 Modern responsive UI
 
 
 
 ## 🧠 RAG (Retrieval-Augmented Generation)
 
-This project uses RAG to improve recommendation quality:
+- This project uses RAG to improve recommendation quality:
 
-Destination guides stored as .txt files
+- Destination guides stored as .txt files
 
-User interest is matched using semantic relevance
+- User interest is matched using semantic relevance
 
-Results are ranked, not just filtered
+- Results are ranked, not just filtered
 
-Helps scale to thousands of destinations efficiently
+- Helps scale to thousands of destinations efficiently
 
 
 
@@ -136,22 +136,20 @@ http://127.0.0.1:5000
 ```
 
 ## 🌟 Creative Highlights
-AI + RAG based ranking instead of simple filters
+- AI + RAG based ranking instead of simple filters
 
-Modular backend architecture
+- Modular backend architecture
 
-Clean, visually appealing UI
+- Clean, visually appealing UI
 
-Scalable design for large destination datasets
+- Scalable design for large destination datasets
+
 
 ## 📌 Future Enhancements
 
-🔐 User login & saved itineraries
+- 🔐 User login & saved itineraries  
+- ✈️ Booking integrations  
+- 🌐 Multilingual support  
+- 📊 Budget tracking dashboard  
+- 🤖 LLM-based conversational travel assistant  
 
-✈️ Booking integrations
-
-🌐 Multilingual support
-
-📊 Budget tracking dashboard
-
-🤖 LLM-based conversational travel assistant
