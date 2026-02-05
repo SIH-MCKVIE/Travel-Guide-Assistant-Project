@@ -2,31 +2,37 @@
   {
     "name": "Goa",
     "budget": 15000,
-    "type": ["beach", "fun", "relax"]
+    "type": ["beach", "fun", "relax"],
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
   },
   {
     "name": "Manali",
     "budget": 12000,
-    "type": ["mountain", "adventure", "nature"]
+    "type": ["mountain", "adventure", "nature"],
+    "image": "https://images.unsplash.com/photo-1586016413664-864c0dd76f53"
   },
   {
     "name": "Jaipur",
     "budget": 8000,
-    "type": ["history", "culture"]
+    "type": ["history", "culture"],
+    "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a"
   },
   {
     "name": "Kerala",
     "budget": 18000,
-    "type": ["nature", "relax"]
+    "type": ["nature", "relax"],
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944"
   },
   {
     "name": "Ladakh",
     "budget": 20000,
-    "type": ["adventure", "mountain"]
+    "type": ["adventure", "mountain"],
+    "image": "https://images.unsplash.com/photo-1593181629936-11c609b8db9b"
   },
   {
     "name": "Agra",
     "budget": 7000,
-    "type": ["history", "culture"]
+    "type": ["history", "culture"],
+    "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523"
   }
 ]

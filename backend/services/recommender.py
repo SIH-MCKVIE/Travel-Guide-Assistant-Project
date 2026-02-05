@@ -7,7 +7,7 @@ def recommend_places(destinations, budget, interest):
     for place in destinations:
         if within_budget(place["budget"], budget) and interest in place["type"]:
             item = place.copy()
-            item["image"] = get_place_image(place["name"])
-            results.append(item)
+            item["image"] = place.get("image") or get_place_image(place["name"])
+
 
     return results
