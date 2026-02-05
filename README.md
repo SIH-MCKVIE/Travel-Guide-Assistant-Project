@@ -52,6 +52,7 @@ Helps scale to thousands of destinations efficiently
 
 
 ## 📂 Project Structure
+```text
 Travel-Guide-Assistant/
 │
 ├── backend/
@@ -73,6 +74,8 @@ Travel-Guide-Assistant/
 │   └── index.html
 │
 └── README.md
+```
+
 
 
 ## ▶️ How to Run the Project
@@ -120,3 +123,35 @@ python app.py
 ```text
 http://127.0.0.1:5000
 ```
+
+## 💡 Sample Inputs
+```
+| Budget (₹) | Interest   |
+|-----------:|------------|
+| 15000      | beach      |
+| 20000      | adventure  |
+| 10000      | culture    |
+| 18000      | nature     |
+| 25000      | mountain   |
+```
+
+## 🌟 Creative Highlights
+AI + RAG based ranking instead of simple filters
+
+Modular backend architecture
+
+Clean, visually appealing UI
+
+Scalable design for large destination datasets
+
+## 📌 Future Enhancements
+
+🔐 User login & saved itineraries
+
+✈️ Booking integrations
+
+🌐 Multilingual support
+
+📊 Budget tracking dashboard
+
+🤖 LLM-based conversational travel assistant
