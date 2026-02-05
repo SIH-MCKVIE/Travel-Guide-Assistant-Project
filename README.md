@@ -50,28 +50,37 @@ It blends AI reasoning, search, and modern UI to deliver personalized travel pla
 ## 🛠️ Tech Stack
 
 ### 🎨 Frontend
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" title="HTML5"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" title="CSS3"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" title="JavaScript"/>
-</p>
+<p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="42" alt="React"/> &nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="42" alt="JavaScript"/> &nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="42" alt="CSS3"/> </p>
 
 ### ⚙️ Backend
+<p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" alt="Python"/> &nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="42" alt="Flask"/> </p>
+
+## 🧠 AI / Intelligence
 <p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" title="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="48" title="Flask"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="38"/>
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" width="38"/>
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/color/48/artificial-intelligence.png" width="38"/>
 </p>
 
-### 🧠 AI / Intelligence
+- Retrieval Augmented Generation (RAG)
+- Intelligent destination ranking
+- Context-aware itinerary generation
+
+
+## 🔗 APIs & Services
 <p align="left">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" width="48" title="AI / RAG"/>
+  <img src="https://img.icons8.com/color/48/google-maps-new.png" width="38"/>
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/ios-filled/50/fa314a/marker.png" width="38"/>
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/fluency/48/api.png" width="38"/>
 </p>
 
-### 🗺️ APIs & Services
-<p align="left">
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlemaps.svg" width="48" title="Google Maps API"/>
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/apachespark.svg" width="48" title="ScaleDown API"/>
-</p>
+- Google Maps Embed API
+- Location-based destination preview
+- External image & data services
 
 
 
