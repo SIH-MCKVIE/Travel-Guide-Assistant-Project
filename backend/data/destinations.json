@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Goa",
+    "budget": 15000,
+    "type": ["beach", "fun", "relax"]
+  },
+  {
+    "name": "Manali",
+    "budget": 12000,
+    "type": ["mountain", "adventure", "nature"]
+  },
+  {
+    "name": "Jaipur",
+    "budget": 8000,
+    "type": ["history", "culture"]
+  },
+  {
+    "name": "Kerala",
+    "budget": 18000,
+    "type": ["nature", "relax"]
+  },
+  {
+    "name": "Ladakh",
+    "budget": 20000,
+    "type": ["adventure", "mountain"]
+  },
+  {
+    "name": "Agra",
+    "budget": 7000,
+    "type": ["history", "culture"]
+  }
+]

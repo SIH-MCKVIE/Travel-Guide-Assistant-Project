@@ -1,0 +1,134 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(120deg, #0077b6, #0096c7);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Search Box */
+.search-box {
+  background: white;
+  max-width: 800px;
+  margin: -30px auto 30px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 220px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 12px 20px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #005f8f;
+}
+
+/* Results */
+.results {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Card */
+.card {
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  color: #0077b6;
+}
+
+.card p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+
+.itinerary {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+/* Map */
+.map-section {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+#map {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 12px;
+  display: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #e9ecef;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}

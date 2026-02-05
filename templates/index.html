@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Guide Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>✈️ Travel Guide Assistant</h1>
+      <p>Your AI-powered companion for unforgettable journeys</p>
+
+      <div class="search-box">
+        <input id="budget" type="number" placeholder="💰 Budget (₹)">
+        <input id="interest" placeholder="🎯 Interest (beach, adventure)">
+        <button onclick="search()">Discover</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results" class="results"></section>
+
+  <!-- MAP -->
+  <section class="map-section">
+    <h2>📍 Explore on Map</h2>
+    <iframe id="map" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>🌏 Travel Guide Assistant © 2026 · Flask · RAG · AI</p>
+  </footer>
+
+  <script src="/static/main.js"></script>

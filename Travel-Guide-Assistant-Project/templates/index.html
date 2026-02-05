@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Guide Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🌍 Travel Guide Assistant</h1>
+    <p>Find destinations based on your budget & interests</p>
+  </header>
+
+  <!-- Search Section -->
+  <section class="search-box">
+    <input id="budget" type="number" placeholder="Enter budget (₹)">
+    <input id="interest" placeholder="Enter interest (beach, adventure)">
+    <button onclick="search()">Search</button>
+  </section>
+
+  <!-- Results -->
+  <section id="results" class="results"></section>
+
+  <!-- Google Maps -->
+  <section class="map-section">
+    <iframe id="map" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>Travel Guide Assistant © 2026</p>
+  </footer>
+
+  <script src="/static/main.js"></script>
+</body>
+</html>
