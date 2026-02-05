@@ -61,7 +61,7 @@ It blends AI reasoning, search, and modern UI to deliver personalized travel pla
   &nbsp;&nbsp;
   <img src="https://img.icons8.com/color/48/artificial-intelligence.png" width="38"/>
   &nbsp;&nbsp;
-  <img src="https://img.icons8.com/fluency/48/brain.png" width="38"/>
+  
 </p>
 
 - Retrieval-Augmented Generation (RAG)
