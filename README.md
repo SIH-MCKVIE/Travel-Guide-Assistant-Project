@@ -75,5 +75,48 @@ Travel-Guide-Assistant/
 └── README.md
 
 
-# ▶️ How to Run the Project
-## 1️⃣ Clone the Repository
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/SIH-MCKVIE/Travel-Guide-Assistant-Project.git
+cd Travel-Guide-Assistant-Project
+```
+
+### 2️⃣ Go to Backend Folder
+```bash
+cd backend
+```
+
+### 3️⃣ Create Virtual Environment
+```bash
+python -m venv tassistant
+```
+
+### 4️⃣ Activate Virtual Environment
+
+**Windows (PowerShell):**
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\tassistant\Scripts\Activate.ps1
+```
+
+**Windows (CMD):**
+```cmd
+tassistant\Scripts\activate
+```
+
+### 5️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 6️⃣ Run the Flask Server
+```bash
+python app.py
+```
+
+### 7️⃣ Open in Browser
+```text
+http://127.0.0.1:5000
+```
