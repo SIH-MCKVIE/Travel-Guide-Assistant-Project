@@ -55,21 +55,22 @@ It blends AI reasoning, search, and modern UI to deliver personalized travel pla
 ### ⚙️ Backend
 <p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" alt="Python"/> &nbsp;&nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="42" alt="Flask"/> </p>
 
-## 🧠 AI / Intelligence
+### 🧠 AI / Intelligence
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="38"/>
   &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg" width="38"/>
-  &nbsp;&nbsp;
   <img src="https://img.icons8.com/color/48/artificial-intelligence.png" width="38"/>
+  &nbsp;&nbsp;
+  <img src="https://img.icons8.com/fluency/48/brain.png" width="38"/>
 </p>
 
-- Retrieval Augmented Generation (RAG)
+- Retrieval-Augmented Generation (RAG)
 - Intelligent destination ranking
 - Context-aware itinerary generation
 
 
-## 🔗 APIs & Services
+
+### 🔗 APIs & Services
 <p align="left">
   <img src="https://img.icons8.com/color/48/google-maps-new.png" width="38"/>
   &nbsp;&nbsp;
