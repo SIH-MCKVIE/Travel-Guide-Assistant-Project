@@ -6,14 +6,16 @@ def recommend_places(destinations, budget, interest):
     interest = interest.lower().strip()
 
     for place in destinations:
-        place_types = [t.lower() for t in place["type"]]
+        place_types = [t.lower() for t in place.get("type", [])]
 
-        if within_budget(place["budget"], budget) and interest in place_types:
+        if within_budget(place["budget"], budget) and any(
+    interest in t or t in interest for t in place_types
+):
+
             item = place.copy()
 
-            # ✅ Preserve JSON image
-            if not item.get("image"):
-                item["image"] = get_place_image(place["name"])
+            # Use JSON image first, fallback only if missing
+            item["image"] = item.get("image") or get_place_image(place["name"])
 
             results.append(item)
 
