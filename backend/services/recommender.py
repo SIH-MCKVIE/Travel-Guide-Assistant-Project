@@ -3,7 +3,6 @@ from services.scaledown import get_place_image
 
 def recommend_places(destinations, budget, interest):
     results = []
-
     interest = interest.lower().strip()
 
     for place in destinations:
@@ -11,7 +10,11 @@ def recommend_places(destinations, budget, interest):
 
         if within_budget(place["budget"], budget) and interest in place_types:
             item = place.copy()
-            item["image"] = get_place_image(place["name"])
+
+            # ✅ Preserve JSON image
+            if not item.get("image"):
+                item["image"] = get_place_image(place["name"])
+
             results.append(item)
 
     return results
